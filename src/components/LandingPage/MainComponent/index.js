@@ -40,9 +40,12 @@ const MainComponent = () => {
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1.0 }}
           transition={{ duration: 0.5, delay: 1.0 }}
-        > <Link to={"/dashboard"}> <Button text={"Dashboard"} outline={false}  /></Link>
-          
-          <a href="https:sajalnamdeo.netlify.app/"  target="_blank"><Button text={"About Me"} outline={true}  /></a>
+        > <Link to="/dashboard">
+        <Button text="Dashboard" outline={false} />
+      </Link>
+      <a href="https://sajalnamdeo.netlify.app/" target="_blank">
+        <Button text="About Me" outline={true} />
+      </a>
           
         </motion.div>
       </div>
