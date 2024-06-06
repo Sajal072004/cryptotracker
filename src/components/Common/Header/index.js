@@ -25,11 +25,7 @@ const Header = () => {
         <Link to="/dashboard">
           <Button text="Dashboard" outline={false} />
         </Link>
-        <a
-          href="https://sajalnamdeo.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://sajalnamdeo.netlify.app/" target="_blank">
           <Button text="About Me" outline={true} />
         </a>
       </div>
