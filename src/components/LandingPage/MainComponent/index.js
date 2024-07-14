@@ -43,7 +43,7 @@ const MainComponent = () => {
         > <Link to="/dashboard">
         <Button text="Dashboard" outline={false} />
       </Link>
-      <a href="https://sajalnamdeo.netlify.app/" target="_blank">
+      <a href="https://sajalnamdeo.vercel.app/" target="_blank">
         <Button text="About Me" outline={true} />
       </a>
           
